@@ -28,9 +28,17 @@ remote_wpcli="/remote/path/to/wp-cli.phar"
 
 `wp.sh deploy [--force]`
 
-### Sync (a.k.a. fetching remote files)
+### Fetch remote files (a.k.a. fetching remote files)
 
 `wp.sh fetch [--force]`
+
+### Sync from local (a.k.a. deployment & Annihiliate all files on remote that aren't on local)
+
+`wp.sh sync_from_local [--force]`
+
+### Export DB (a.k.a. export db as a production-ready sql file)
+
+`wp.sh export_db`
 
 ### Deploy DB (a.k.a. pushing local database to the remote server)
 
